@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int a, max=0, n;
+    printf("Enter the n values u want to compare: ");
+    scanf("%d",&n);
+    for(int i=0;i<n;i++)
+    {
+        printf("Enter the Value of a: ");
+        scanf("%d",&a);
+        if(a>=max)
+        {
+            max=a;
+        }
+    }
+    printf("%d", max);
+}
