@@ -1,4 +1,5 @@
 //Armstrong Number Which is a Number is equal to sum of number in a number*3 
+//Example: 153 = (1*1*1)+(5*5*5)+(3*3*3)
 #include<stdio.h>
 int main()
 {
