@@ -1,0 +1,23 @@
+//Armstrong Number Which is a Number is equal to sum of number in a number*3 
+#include<stdio.h>
+int main()
+{
+    //Variables
+    int n, rem, s=0, temp;
+    scanf("%d", &n);
+    temp=n;
+    while(n>0)
+    {
+        rem=n%10;
+        s+=(rem*rem*rem);
+        n=n/10;
+    }
+    if(temp==s)
+    {
+        printf("Armstrong");
+    }
+    else
+    {
+        printf("Not Armstrong");
+    }
+}
