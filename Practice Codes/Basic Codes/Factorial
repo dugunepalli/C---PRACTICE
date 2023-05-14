@@ -1,0 +1,21 @@
+//Factorial is Multiplication of Numbers in a range
+//5! = 5*4*3*2*1 = 120  
+//3! = 3*2*1 = 6  
+
+#include<stdio.h>
+int main()
+{
+    //Variables
+    int n, r=1;
+    scanf("%d", &n);
+    for(int i=1;i<=n;i++)
+    //while(n>0)
+    {
+        r*=i;
+        //if ur using the while loop un comment the below line
+        //r*=n;
+        //n--;
+    }
+    printf("Fact is: %d", r);
+    return 0;
+}
