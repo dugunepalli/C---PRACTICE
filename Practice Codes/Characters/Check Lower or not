@@ -1,0 +1,16 @@
+//Chech a char is Lower or Nor
+#include<stdio.h>
+#include<ctype.h>   //Header File for Characters
+int main()
+{
+    char c='a';
+    if(islower(c))
+    {
+        printf("Lower");
+    }
+    else
+    {
+        printf("Upper");
+    }
+    return 0;
+}
