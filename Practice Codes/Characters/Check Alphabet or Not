@@ -1,0 +1,16 @@
+//Chech Alpha or Not
+#include<stdio.h>
+#include<ctype.h>   //Header File for Characters
+int main()
+{
+    char c='/';
+    if(isalpha(c))
+    {
+        printf("Alphabet");
+    }
+    else
+    {
+        printf("Not Alphabet");
+    }
+    return 0;
+}
