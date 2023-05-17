@@ -1,0 +1,9 @@
+//Convert Char to Upper Case
+#include<stdio.h>
+#include<ctype.h>   //Header File for Characters
+int main()
+{
+    char c='a';
+    printf("%c", toupper(c));
+    return 0;
+}
