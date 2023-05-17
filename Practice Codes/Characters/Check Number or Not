@@ -1,0 +1,16 @@
+//Chech Digit or Not
+#include<stdio.h>
+#include<ctype.h>   //Header File for Characters
+int main()
+{
+    char c='*';
+    if(isdigit(c))
+    {
+        printf("Number");
+    }
+    else
+    {
+        printf("Not a Number");
+    }
+    return 0;
+}
