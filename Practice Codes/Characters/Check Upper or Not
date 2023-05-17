@@ -1,0 +1,16 @@
+//Chech a char is Upper or Nor
+#include<stdio.h>
+#include<ctype.h>   //Header File for Characters
+int main()
+{
+    char c='A';
+    if(!isupper(c))
+    {
+        printf("Lower");
+    }
+    else
+    {
+        printf("Upper");
+    }
+    return 0;
+}
