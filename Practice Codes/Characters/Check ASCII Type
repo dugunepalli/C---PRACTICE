@@ -29,7 +29,7 @@ int main()
         }
         else
         {
-            printf(" Others\n");
+            printf(" \t\n");
         }
     }
     return 0;
