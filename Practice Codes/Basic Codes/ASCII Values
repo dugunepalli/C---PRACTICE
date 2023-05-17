@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    for(int n=0;n<=128;n++)
+    {
+        printf("Ascii no: %d and Data is: %c \n", n, n);
+    }
+    return 0;
+}
