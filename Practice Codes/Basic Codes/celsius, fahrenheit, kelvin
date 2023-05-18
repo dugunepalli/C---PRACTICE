@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int c, f;
+    float k;
+    c=21;
+    f=c*9/5+32;
+    k=c+273.15;
+    printf("%dC=%dF=%fk ", c, f, k);
+    return 0;
+}
