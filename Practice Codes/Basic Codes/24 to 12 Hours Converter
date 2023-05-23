@@ -1,0 +1,14 @@
+//Convert the 24 Hours into 12 Hours
+#include<stdio.h>
+int main()
+{
+    int h, m, s;
+    printf("Enter the time in HH:MM:SS- ");
+    scanf("%d:%d:%d", &h, &m, &s);
+    if(h>12)
+    {
+        h=h-12;
+    }
+    printf("Time is: %d:%d:%d", h, m, s);
+    return 0;
+}
